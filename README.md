@@ -1,4 +1,4 @@
-# Basic workshop for basic Docker tasks
+# Basic workshop for Docker
 
 - 01: Container basics
 - 02: Creating Images
