@@ -7,7 +7,7 @@ https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persis
 
 ## Steps
 
-1. docker secret create db_root_password SecretPWR00t
-2. docker secret create db_root_password SecretPWUs3r
-3. docker stack deploy -f docker-compose.yml
+1. echo SecretPWR00t | docker secret create db_root_password -
+2. echo SecretPWUs3r | docker secret create db_dba_password -
+3. docker stack deploy -f docker-compose.yml WORDPRESS
 
