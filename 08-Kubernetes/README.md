@@ -5,6 +5,8 @@
 
 https://github.com/dockersamples/k8s-wordsmith-demo
 
+https://github.com/dockersamples/example-voting-app
+
 
 ## Further Learnings
 
